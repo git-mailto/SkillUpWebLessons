@@ -1,0 +1,27 @@
+
+
+
+header {
+    height: 14.6vh;
+    background-color: #53DD6C;
+}
+
+.subheader {
+    height: 23.6vh;
+    background-color: #016FB9;
+}
+
+main {
+    height: 61.8vh;
+    background-color: #C9CAD9;
+}
+
+.submain {
+    height: 23.6vh;
+    background-color: #016FB9;
+}
+
+footer {
+    height: 14.6vh;
+    background-color: #FF9505;
+}

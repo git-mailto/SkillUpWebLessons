@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #D8DDEF
+}
+
+header {
+    background-color:#7A9B76;
+    height: 18vh;
+    display: flex;
+}
+
+.logo {
+    width: 18rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo img{
+    position: relative;
+    width: 11rem;
+    margin: 0 0 0 0;
+}
+
+.links {
+    margin-left: 62%;
+    margin-top: 1rem;
+    width: 18rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.subheader {
+    margin: 0;
+    padding-top: 2.6rem;
+    height: 18vh;
+    width: 100vw;
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: #FCBA04;
+}
+
+main {
+    background-color: #D8DDEF;
+    padding-top: 1px;
+    text-align: center;
+}
+
+.goods {
+    display: flex;
+}
+
+.goodbox {
+    width: 29vw;
+    border: 1px solid rgba(71, 71, 71, 0.678);
+    border-radius: 1.6rem;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    background-color: #EFF7FF;
+}
+
+.goodbox img {
+    width: 11rem;
+}
+
+.submain {
+    background-color: #FCBA04;
+    height: 18vh;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.submainbox {
+    width: 29vw;
+    text-align: center;
+    margin-top: 5%;
+}
+
+footer {
+    height: 18vh;
+    background-color: #7A9B76;
+    text-align: center;
+}
+
+.infolinks {
+    display: flex;
+    justify-content: space-around;
+    background-color: #EFF7FF;
+    width: 11rem;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    margin-left: 62%;
+    margin-top: 0.1%;
+
+}

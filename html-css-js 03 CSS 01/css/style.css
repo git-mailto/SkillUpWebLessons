@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navlinks {
+    padding-left: 1rem;
+}
+
+.contentbox {
+    padding-left: 1rem;
+}
+
+.contentbox p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #b22222;
+}
+
+.contentbox h3 {
+    font-weight: 700;
+}
+
+.contentbox img {
+    width: 18rem;
+    box-shadow: 0 0 11px rgba(0,0,0,1);
+    margin-top: 1rem;
+}
+
+h1 {
+    color: darkgreen;
+    text-align: center;
+}
+
+
+h2 {
+    color: darkblue;
+    font-style: italic;
+    text-align: right;
+}
+
+
+h3 {
+    color: #ff9900;
+}
+
+div {
+    border: 5px ridge seagreen;
+    border-radius: 1.6rem;
+    margin: 1rem;
+}
+
+#centeredtext h3{
+    text-align: center;
+}
+
+#centeredtext p{
+    text-align: center;
+}
+
+.js_content {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.js_content_header {
+    text-align: center;
+}
+
+#js_header {
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.js_box {
+    border: 1px solid black;
+    padding: 1.6rem;
+}
+
+
+#bluetext {
+    color: blue;
+}

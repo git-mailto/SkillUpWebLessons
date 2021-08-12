@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 1.333rem;
+}
+
+body h3 {
+    padding-left: 1rem;
+}
+
+.element {
+    transform: translate( -50%, -50%);
+}
+
+.fixed_element {
+    position: fixed;
+    top: 0px;
+    top: 0%;
+    height: 5vh;
+}
+
+.sticky_element {
+    position: sticky;
+    top: 0px;
+}
+
+.red_square {
+    border: 4px solid #D7263D;
+    width: 50px;
+    height: 50px;
+}
+
+.blue_square {
+    border: 4px solid #0197F6;
+    width: 50px;
+    height: 50px;
+}
+
+.green_square {
+    border: 4px solid #48BF84;
+    width: 50px;
+    height: 50px;
+}
+
+.absolute_box01 {
+    position: relative;
+    height: 18vh;
+}
+
+.absolute_box01 .red_square {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.absolute_box01 .blue_square {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.absolute_box01 .green_square {
+    position: absolute;
+    top: 50px;
+    left: 170px;
+}
+
+.absolute_box02 {
+    position: relative;
+    height: 29vh;
+}
+
+.absolute_box02 .red_square {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.absolute_box02 .blue_square {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+
+.absolute_box02 .green_square {
+    position: absolute;
+    top: 190px;
+    left: 170px;
+}
+
+.absolute_box03 {
+    position: relative;
+    height: 29vh;
+}
+
+.absolute_box03 .red_square {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.absolute_box03 .blue_square {
+    position: absolute;
+    top: 90px;
+    left: 70px;
+}
+
+.absolute_box03 .green_square {
+    position: absolute;
+    top: 130px;
+    left: 110px;
+}
+
+.absolute_box04 {
+    position: relative;
+    height: 29vh;
+}
+
+.absolute_box04 .red_square {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background-color: #D7263D;
+}
+
+.absolute_box04 .blue_square {
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    background-color: #0197F6;
+}
+
+.absolute_box04 .green_square {
+    position: absolute;
+    top: 130px;
+    left: 110px;
+    background-color: #48BF84;
+}
+
+.absolute_box05 {
+    position: relative;
+    height: 29vh;
+}
+
+.absolute_box05 .red_square {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background-color: #D7263D;
+}
+
+.absolute_box05 .blue_square {
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    background-color: #0197F6;
+    z-index: 2;
+}
+
+.absolute_box05 .green_square {
+    position: absolute;
+    top: 130px;
+    left: 110px;
+    background-color: #48BF84;
+}
+
+.absolute_box06 {
+    position: relative;
+    height: 29vh;
+}
+
+.absolute_box06 .red_square {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background-color: #D7263D;
+    z-index: 2;
+}
+
+.absolute_box06 .blue_square {
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    background-color: #0197F6;
+    
+}
+
+.absolute_box06 .green_square {
+    position: absolute;
+    top: 130px;
+    left: 110px;
+    background-color: #48BF84;
+    z-index: 2;
+}
+
+.absolute_box07 {
+    position: relative;
+    height: 29vh;
+}
+
+.absolute_box07 .red_square {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background-color: #D7263D;
+    z-index: 3;
+}
+
+.absolute_box07 .blue_square {
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    background-color: #0197F6;
+    z-index: 2;
+}
+
+.absolute_box07 .green_square {
+    position: absolute;
+    top: 130px;
+    left: 110px;
+    background-color: #48BF84;
+    z-index: 1;
+}
+
+.absolute_box08 {
+    position: relative;
+    height: 29vh;
+}
+
+.absolute_box08 .red_square {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.absolute_box08 .green_square {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    top: 4px;
+    left: 30px;
+}
+
+.absolute_box09 {
+    position: relative;
+    height: 29vh;
+}
+
+.absolute_box09 .red_square {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #ffff;
+    border: 1px solid #ffff;
+    z-index: ;
+}
+
+.absolute_box09 .blue_square {
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    background-color: #ffff;
+    border: 1px solid #ffff;
+    z-index: ;
+}
+
+.absolute_box09 .green_square {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    top: 4px;
+    left: 30px;
+    background-color: #48BF84;
+}
+
+.absolute_box10 {
+    position: relative;
+    height: 29vh;
+}
+
+.absolute_box10 .red_square {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 50%;
+}
+
+.absolute_box10 .blue_square {
+    position: absolute;
+    top: 20px;
+    left: 110px;
+    background-color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 50%;
+}
+
+.absolute_box10 .blue_square:nth-child(2) {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    width: 30px;
+    height: 30px;
+    border-radius: 0%;
+    background-color: #ffff;
+    border: 1px solid #ffff;
+}
+.absolute_box10 .blue_square:nth-child(3) {
+    position: absolute;
+    top: 125px;
+    left: 52px;
+    width: 78px;
+    height: 7px;
+    border-radius: 0%;
+    background-color: #ffff;
+    border: 1px solid #ffff;
+}
+
+.absolute_box10 .green_square {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    top: 4px;
+    left: 30px;
+    background-color: #48BF84;
+    border-radius: 50%;
+}
+
+.absolute_box11 {
+    position: relative;
+    height: 29vh;
+}
+
+.absolute_box11 .red_square {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 50%;
+}
+
+.absolute_box11 .blue_square {
+    position: absolute;
+    top: 20px;
+    left: 110px;
+    background-color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 50%;
+}
+
+.absolute_box11 .blue_square:nth-child(2) {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffff;
+    border: 1px solid #ffff;
+}
+.absolute_box11 .blue_square:nth-child(3) {
+    position: absolute;
+    top: 125px;
+    left: 52px;
+    width: 78px;
+    height: 12px;
+    border-radius: 0px 0px 100px 100px;
+    /* Я старался;) */
+    background-color: #ffff;
+    border: 1px solid #ffff;
+}
+
+.absolute_box11 .green_square {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    top: 4px;
+    left: 30px;
+    background-color: #E8AA14;
+    border: 5px solid #E8AA14;
+    border-radius: 50%;
+}

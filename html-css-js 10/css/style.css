@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: "Playfair Display", serif;
+    font-size: 47px;
+}
+
+.grid01 {
+    margin-top: 2.6rem;
+    margin-left: 1.6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 20rem);
+    grid-template-rows: 12rem 12rem;
+    grid-gap: 1rem 1.6rem;
+}
+
+.grid01cell {
+    background-color: darkslategray;
+    border-radius: 1rem;
+    color: snow;
+    text-align: center;
+}
+
+.grid02 {
+    margin-top: 2.6rem;
+    margin-left: 1.6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 20rem);
+    grid-template-rows: repeat(2, 12rem);
+    grid-gap: 1rem 1.6rem;
+}
+
+.grid02cell {
+    background-color: darkslategray;
+    border-radius: 1rem;
+    color: snow;
+    text-align: center;
+}
+
+.grid02cell:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.grid02cell:nth-child(2) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.grid03 {
+    margin-top: 2.6rem;
+    margin-left: 1.6rem;
+    display: grid;
+    grid-template-columns: repeat(4, 18rem);
+    grid-template-rows: repeat(3, 11rem);
+    grid-gap: 1rem 1.6rem;
+}
+
+.grid03cell {
+    background-color: darkslategray;
+    border-radius: 1rem;
+    color: snow;
+    text-align: center;
+}
+
+.grid03cell:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.grid03cell:nth-child(2) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.grid03cell:nth-child(4) {
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+.grid03cell:nth-child(5) {
+    grid-column: span 4;
+    grid-row: span 1;
+}
+
+.grid04 {
+    margin-top: 2.6rem;
+    margin-left: 1.6rem;
+    display: grid;
+    grid-template-columns: repeat(4, 11rem);
+    grid-template-rows: repeat(3, 7rem);
+    grid-gap: 1rem 1.6rem;
+}
+
+.grid04cell {
+    background-color: darkslategray;
+    border-radius: 1rem;
+    color: snow;
+    text-align: center;
+}
+
+.grid04cell:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.grid04cell:nth-child(2) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.grid04cell:nth-child(3) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.grid04cell:nth-child(4) {
+    width: 23.6rem;
+    height: 15rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 0.6rem 0.6rem;
+    background-color: darkslategray;
+}
+
+.grid04cellsmall:nth-child(1) {
+    margin: 0.6rem;
+    border-radius: 1rem;
+    grid-column: span 2;
+    grid-row: span 1;
+    background-color: lavender;
+    color: black;
+}
+
+.grid04cellsmall:nth-child(2) {
+    margin: 0.6rem;
+    border-radius: 1rem;
+    background-color: lavender;
+    color: black;
+}
+
+.grid04cellsmall:nth-child(3) {
+    margin: 0.6rem;
+    border-radius: 1rem;
+    background-color: lavender;
+    color: black;
+}
+
+.grid05 {
+    margin-top: 2.6rem;
+    margin-left: 1.6rem;
+    border: 0.235rem solid black;
+    display: grid;
+    grid-template-columns: 31% 31% 38%;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1rem 1.6rem;
+}
+
+.grid05cell {
+    margin: 1rem;
+    width: 18rem;
+    height: auto;
+    background-color: darkslategray;
+    border-radius: 0.6rem;
+    color: snow;
+    text-align: center;
+}
+
+.grid05cell:nth-child(1),
+.grid05cell:nth-child(2) {
+    border-radius: 1rem;
+    background-color: lavender;
+    color: black;
+}
+
+.grid05cell:nth-child(3) {
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    padding: 1rem;
+    height: auto;
+    border-radius: 1rem;
+    background-color: lavender;
+    font-size: 1rem;
+    color: black;
+    grid-column: span 1;
+    grid-row: span 3;
+    text-align: justify;
+}
+
+.grid05cell:nth-child(4),
+.grid05cell:nth-child(5) {
+    height: auto;
+    border-radius: 1rem;
+    background-color: lavender;
+    color: black;
+    align-self: end;
+}
+
+.grid06 {
+    margin-top: 2.6rem;
+    margin-left: 1.6rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 1rem 1.6rem;
+    grid-template-areas: 
+    ". hdr"
+    "sdbr cntnt"
+    "ftr .";
+}
+
+.grid06cellheader,
+.grid06cellsidebar,
+.grid06cellcontent,
+.grid06cellfooter {
+    padding: 1rem;
+    background-color: darkslategray;
+    border-radius: 1rem;
+    color: snow;
+    text-align: justify;
+    height: fit-content;
+}
+
+.grid06cellheader {
+    grid-area: hdr;
+    background-color: rgb(136, 136, 136);
+    height: 2.6rem;
+}
+
+.grid06cellsidebar {
+    grid-area: sdbr;
+}
+
+.grid06cellcontent {
+    grid-area: cntnt;
+}
+
+.grid06cellfooter {
+    grid-area: ftr;
+    grid-column: span 2;
+    background-color: rgb(136, 136, 136);
+}
