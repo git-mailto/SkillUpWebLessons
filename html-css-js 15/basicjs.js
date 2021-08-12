@@ -18,3 +18,7 @@ city2 = {
 console.log(city2)
 
 
+city3 = {
+    name: "Horazium",
+    population: 590285
+}
